@@ -233,7 +233,7 @@ a {
   background-color: #313131;
 }
 .about img {
-  height: auto;
+  /* height: auto; */
   width: 430px;
   border-radius: 10px;
 }
