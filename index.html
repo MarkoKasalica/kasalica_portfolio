@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Kasalica Portfolio</title>
+  </head>
+  <body>
+    <!-- HERO SECTION-->
+    <section class="hero-main">
+      <!-- <div class="hero-container"> -->
+      <nav class="full-navbar">
+        <div class="iconic">
+          <i class="fa-solid fa-m"></i>
+        </div>
+        <div>
+          <nav>
+            <ul class="navbar-list">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+      <div class="hero-content" id="home">
+        <h3><span>Hi,</span> I am Marko Kasalica</h3>
+        <h4>
+          FrontEnd Developer <br />
+          based in Belgrade, Serbia
+        </h4>
+        <div class="hero-button">
+          <button>
+            <a href="./files/Marko_Kasalica_CV.pdf" download target="_blank"
+              >Download CV</a
+            >
+          </button>
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
+
+    <!-- ABOUT SECTION-->
+
+    <section class="about" id="about">
+      <div class="main">
+        <img src="./images/IMG_9637.JPG" />
+        <div class="about-text">
+          <h2>About <span>Me</span></h2>
+          <p>
+            For about 1.5 years I've been working with FrontEnd technologies.
+            Most of my projects include: <span>JavaScript</span>,
+            <span>ReactJS</span>, <span>HTML</span>, <span>CSS</span> and
+            <span>MaterialUI</span> My goal is to master building and designing
+            UI for all kinds of Web Applications. Recently, I also started using
+            <span>NodeJS</span> and <span>ExpressJS</span> framework. I was
+            curious about what lies behind FrontEnd field and how those
+            structures work. With my background in JavaScript, best choice for
+            introduction to BackEnd was mentioned NodeJS. Before the beginning
+            of my Web Developement journey I've been studying Sociology on
+            University of Belgrade, where I got Bachelor and Master's degree.
+            Through those studies I found out important is Informational
+            Technology for contemporary global society and all the positive
+            effects it brings. Besides that, the experience on university helped
+            me building strong working ethic and discipline
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects" id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Recent <span>Projects</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Movie App</h1>
+              <p>
+                A web application built in <span>ReactJS</span>. It has a search
+                filter which communicates with The Movie Database API (TMDB).
+                The app fetches data from the metioned API and displays name,
+                image, IMDB rating and short description of Tthe searched movie.
+              </p>
+            </div>
+            <div class="project-img">
+              <a href="https://movie-app-de438.web.app/" target="_blank">
+                <img src="./images/movieapp.png" alt="img" />
+              </a>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Recipe App</h1>
+
+              <p>
+                This app works as a book of all kind of food recipes. With
+                similar logic as the MovieApp, it is built in
+                <span>ReactJS</span> and has implemented third-party API. This
+                time I used Edamam API. On the first page we have a input form
+                made for searching recipe. Results sent from Edamam database
+                give us an image of searched food, a title, a recipe and a short
+                description of main nutrients. On the main food card we also
+                have a "See more" button which leads us to programmed modal with
+                details about searched recipe and its nutrient value.
+              </p>
+            </div>
+            <div class="project-img">
+              <a href="https://recipe-app-reactjs-api.web.app/" target="_blank">
+                <img src="./images/recipe_app.png" alt="img"
+              /></a>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>ExpressJS Authentication</h1>
+
+              <p>
+                This project is a clear exception in comparison with all the
+                others presented here. Main difference lies in fact that this
+                project can't be percived as FrontEnd project. Built with
+                <span>ExpressJS</span>, a framework made for simplifying usage
+                of <span>NodeJS</span> - most popular BackEnd platform written
+                in <span>JavaScript</span>. Here we have an exercise for
+                studying and implementing basic BackEnd concepts and
+                functionalities for the Web: creation of a server, defining
+                routes, usage of middleware functions, usage of cookies,
+                sessions, MongoDB database, hashing of a password and finally
+                defining the register and login process for Authentication of
+                users. We didn't use FrontEnd form so everything was tested with
+                <span>Postman API</span> platform.
+              </p>
+            </div>
+            <div class="project-img">
+              <a
+                href="https://github.com/MarkoKasalica/expressjs_vezba"
+                target="_blank"
+              >
+                <img src="./images/expressimage1.png" alt="img"
+              /></a>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Material UI Blog</h1>
+
+              <p>
+                In this project I used <span>Material UI</span>, one of the most
+                popular libraries of <span>ReactJS</span> UI components that
+                implements Google's Material Design. It made process of styling
+                much easier and faster. The interface is built to look as a blog
+                app with other functionalities, such as using your personal
+                account and chating with other users(friends or connections).
+                It's important to mention that this is just a design without any
+                real functionalities, except for button made for changing the
+                dark/light mode.
+              </p>
+            </div>
+            <div class="project-img">
+              <a href="https://materialui-blog-design.web.app/" target="_blank">
+                <img src="./images/material_ui_blog.png" alt="img"
+              /></a>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>ReactJS Expense Tracker</h1>
+
+              <p>
+                This is a simple <span>ReactJS</span> project for exercising
+                basic concepts of working in React environment. Main feature
+                feature here refers to impementation of input/output logic which
+                implies usage of props, an object that is passed through React
+                components. Process of manipulating the props (short for
+                properties) here starts with gaining the value from user in our
+                form to displaying the entered value (in this case expence) with
+                details like date and price.
+              </p>
+            </div>
+            <div class="project-img">
+              <a
+                href="https://react-mini-expense-tracker.web.app/"
+                target="_blank"
+              >
+                <img src="./images/react_expense_tracker.png" alt="img" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="footer" id="contact">
+      <h6>Marko Kasalica</h6>
+      <div class="social">
+        <p>Email:</p>
+
+        <p>markokasalica3@gmail.com</p>
+        <div class="my-icons">
+          <a
+            href="https://www.linkedin.com/in/marko-kasalica-583353227/"
+            class="fa-brands fa-linkedin"
+          ></a>
+          <a
+            href="https://github.com/MarkoKasalica"
+            class="fa-brands fa-github"
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
