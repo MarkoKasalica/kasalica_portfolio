@@ -284,6 +284,14 @@ a {
     width: 80%;
   }
 }
+@media screen and (max-width: 600px) {
+  .about-text h2 {
+    font-size: 40px;
+  }
+  .about-text p {
+    font-size: 15px;
+  }
+}
 /*-------------------PROJECTS CSS------------------------------------*/
 img {
   height: 100%;
