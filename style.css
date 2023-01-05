@@ -315,11 +315,18 @@ a {
   .about-text p {
     font-size: 17px;
     text-align: justify;
+    line-height: 35px;
   }
   .about-text p span {
     font-size: 19px;
   }
 }
+@media screen and (max-width: 400px) {
+  .about-text p {
+    text-align: left;
+  }
+}
+
 /*-------------------PROJECTS CSS------------------------------------*/
 img {
   height: 100%;
