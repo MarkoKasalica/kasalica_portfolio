@@ -112,8 +112,9 @@ a {
 .hero-content {
   padding: 200px 150px 100px 150px;
   line-height: 70px;
-  color: white;
+  color: rgb(232, 232, 232);
   font-size: 20px;
+  text-shadow: 2.7px 2.7px black;
 }
 
 .hero-content h4 {
@@ -130,7 +131,7 @@ a {
   padding: 20px 20px 20px 20px;
   background-color: black;
   border-radius: 10px;
-  box-shadow: 0.5px 4px 3px #323232;
+  box-shadow: 0.5px 2px 3px #323232;
 }
 .hero-button button:hover {
   background-color: black;
